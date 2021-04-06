@@ -1,0 +1,20 @@
+Topic: Regression with Panel Data
+-----------------------------------
+Empirical Exercise 10.1
+-----------------------------------
+Some U.S. states have enacted laws that allow citizens to carry concealed weapons. These laws are known as “shall-issue” laws because they instruct local authorities to issue a concealed weapons permit to all applicants who are citizens, are mentally competent, and have not been convicted of a felony. (Some states have some additional restrictions.) Proponents argue that if more people carry concealed weapons, crime will decline because criminals will be deterred from attacking other people. Opponents argue that crime will increase because of accidental or spontaneous use of the weapons. In this exercise, you will analyze the effect of concealed weapons laws on violent crimes. Attached to this problem, you will find the data file Guns, which contains a balanced panel of data from the 50 U.S. states plus the District of Columbia for the years 1977 through 1999.3 A detailed description is given in Guns_Description file.
+
+A)	Estimate (1) a regression of ln(vio) against shall and (2) a regression of ln(vio) against shall, incarc_rate, density, avginc, pop, pb1064, pw1064, and pm1029.
+	a.	interpret the coefficient on shall in regression (2). Is this estimate large or small in a real-world sense?
+	b.	Does adding the control variables in regression (2) change the estimated effect of a shall-issue law in regression (1) as measured by statistical significance? As measured by the real-world significance of the estimated coefficient?
+	c.	Suggest a variable that varies across states but plausibly varies little—or not at all—over time and that could cause omitted variable bias in regression (2).
+
+B)	Do the results change when you add fixed state effects? If so, which set of regression results is more credible, and why?
+
+C)	Do the results change when you add fixed time effects? If so, which set of regression results is more credible, and why?
+
+D)	Repeat the analysis using ln(rob) and ln(mur) in place of ln(vio).
+
+E)	In your view, what are the most important remaining threats to the internal validity of this regression analysis?
+
+F)	Based on your analysis, what conclusions would you draw about the effects of concealed weapons laws on these crime rates?

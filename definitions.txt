@@ -1,0 +1,27 @@
+Documentation for Guns Data
+-------------------------------
+Guns is a balanced panel of data on 50 US states, plus the District of Columbia (for a
+total of 51 “states”), by year for 1977 – 1999. Each observation is a given state in a given
+year. There are a total of 51 states × 23 years = 1173 observations. These data were
+provided by Professor John Donohue of Stanford University and were used in his paper
+with Ian Ayres “Shooting Down the ‘More Guns Less Crime’ Hypothesis” Stanford Law
+Review, 2003, Vol. 55, 1193-1312.
+
+Variable Definitions
+--------------------
+Variable	| Definition
+----------------|------------
+vio		- violent crime rate (incidents per 100,000 members of the population)
+rob		- robbery rate (incidents per 100,000)
+mur		- murder rate (incidents per 100,000)
+shall		= 1 if the state has a shall-carry law in effect in that year
+		= 0 otherwise
+incarc_rate	- incarceration rate in the state in the previous year (sentenced prisoners per 100,000 residents; value for the previous year)
+density		- population per square mile of land area, divided by 1000
+avginc		- real per capita personal income in the state, in thousands of dollars
+pop		- state population, in millions of people
+pm1029		- percent of state population that is male, ages 10 to 29
+pw1064		- percent of state population that is white, ages 10 to 64
+pb1064		- percent of state population that is black, ages 10 to 64
+stateid		- ID number of states (Alabama = 1, Alaska = 2, etc.)
+year		- Year (1977-1999)

@@ -1,0 +1,285 @@
+ln(vio)   vs  ['shall']
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.087
+Model:                            OLS   Adj. R-squared:                  0.086
+Method:                 Least Squares   F-statistic:                     111.1
+Date:                Tue, 06 Apr 2021   Prob (F-statistic):           7.09e-25
+Time:                        15:34:05   Log-Likelihood:                -1097.7
+No. Observations:                1173   AIC:                             2199.
+Df Residuals:                    1171   BIC:                             2209.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          6.1349      0.021    296.130      0.000       6.094       6.176
+x1            -0.4430      0.042    -10.539      0.000      -0.525      -0.361
+==============================================================================
+Omnibus:                       18.398   Durbin-Watson:                   0.122
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.050
+Skew:                          -0.239   Prob(JB):                     2.69e-05
+Kurtosis:                       3.450   Cond. No.                         2.50
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+ln(vio)   vs  ['shall', 'incarc_rate', 'density', 'avginc', 'pop', 'pb1064', 'pw1064', 'pm1029']
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.564
+Model:                            OLS   Adj. R-squared:                  0.561
+Method:                 Least Squares   F-statistic:                     188.4
+Date:                Tue, 06 Apr 2021   Prob (F-statistic):          6.46e-204
+Time:                        15:34:05   Log-Likelihood:                -663.61
+No. Observations:                1173   AIC:                             1345.
+Df Residuals:                    1164   BIC:                             1391.
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          2.9817      0.543      5.487      0.000       1.916       4.048
+x1            -0.3684      0.033    -11.312      0.000      -0.432      -0.304
+x2             0.0016      0.000     15.050      0.000       0.001       0.002
+x3             0.0267      0.013      2.027      0.043       0.001       0.053
+x4             0.0012      0.008      0.155      0.877      -0.014       0.016
+x5             0.0427      0.003     16.691      0.000       0.038       0.048
+x6             0.0809      0.017      4.856      0.000       0.048       0.114
+x7             0.0312      0.008      3.724      0.000       0.015       0.048
+x8             0.0089      0.011      0.823      0.410      -0.012       0.030
+==============================================================================
+Omnibus:                       71.332   Durbin-Watson:                   0.188
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               84.822
+Skew:                          -0.600   Prob(JB):                     3.81e-19
+Kurtosis:                       3.543   Cond. No.                     1.28e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.28e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+ln(mur)   vs  ['shall']
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.083
+Model:                            OLS   Adj. R-squared:                  0.083
+Method:                 Least Squares   F-statistic:                     106.5
+Date:                Tue, 06 Apr 2021   Prob (F-statistic):           5.86e-24
+Time:                        15:34:05   Log-Likelihood:                -1200.2
+No. Observations:                1173   AIC:                             2404.
+Df Residuals:                    1171   BIC:                             2415.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          1.8976      0.023     83.928      0.000       1.853       1.942
+x1            -0.4734      0.046    -10.320      0.000      -0.563      -0.383
+==============================================================================
+Omnibus:                       24.775   Durbin-Watson:                   0.228
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               49.701
+Skew:                          -0.032   Prob(JB):                     1.61e-11
+Kurtosis:                       4.006   Cond. No.                         2.50
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+ln(mur)   vs  ['shall', 'incarc_rate', 'density', 'avginc', 'pop', 'pb1064', 'pw1064', 'pm1029']
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.606
+Model:                            OLS   Adj. R-squared:                  0.603
+Method:                 Least Squares   F-statistic:                     223.7
+Date:                Tue, 06 Apr 2021   Prob (F-statistic):          3.43e-229
+Time:                        15:34:05   Log-Likelihood:                -705.18
+No. Observations:                1173   AIC:                             1428.
+Df Residuals:                    1164   BIC:                             1474.
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -2.4856      0.563     -4.415      0.000      -3.590      -1.381
+x1            -0.3132      0.034     -9.281      0.000      -0.379      -0.247
+x2             0.0021      0.000     18.888      0.000       0.002       0.002
+x3             0.0397      0.014      2.907      0.004       0.013       0.066
+x4            -0.0773      0.008     -9.584      0.000      -0.093      -0.061
+x5             0.0416      0.003     15.698      0.000       0.036       0.047
+x6             0.1308      0.017      7.580      0.000       0.097       0.165
+x7             0.0471      0.009      5.424      0.000       0.030       0.064
+x8             0.0655      0.011      5.871      0.000       0.044       0.087
+==============================================================================
+Omnibus:                      151.394   Durbin-Watson:                   0.441
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              265.576
+Skew:                          -0.829   Prob(JB):                     2.14e-58
+Kurtosis:                       4.638   Cond. No.                     1.28e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.28e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+ln(rob)   vs  ['shall']
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.121
+Model:                            OLS   Adj. R-squared:                  0.120
+Method:                 Least Squares   F-statistic:                     160.9
+Date:                Tue, 06 Apr 2021   Prob (F-statistic):           1.22e-34
+Time:                        15:34:05   Log-Likelihood:                -1533.9
+No. Observations:                1173   AIC:                             3072.
+Df Residuals:                    1171   BIC:                             3082.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          4.8731      0.030    162.163      0.000       4.814       4.932
+x1            -0.7733      0.061    -12.685      0.000      -0.893      -0.654
+==============================================================================
+Omnibus:                       19.019   Durbin-Watson:                   0.123
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.545
+Skew:                          -0.300   Prob(JB):                     5.70e-05
+Kurtosis:                       3.198   Cond. No.                         2.50
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+ln(rob)   vs  ['shall', 'incarc_rate', 'density', 'avginc', 'pop', 'pb1064', 'pw1064', 'pm1029']
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.596
+Model:                            OLS   Adj. R-squared:                  0.593
+Method:                 Least Squares   F-statistic:                     214.8
+Date:                Tue, 06 Apr 2021   Prob (F-statistic):          4.30e-223
+Time:                        15:34:05   Log-Likelihood:                -1077.6
+No. Observations:                1173   AIC:                             2173.
+Df Residuals:                    1164   BIC:                             2219.
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.9041      0.773      1.169      0.243      -0.613       2.421
+x1            -0.5288      0.046    -11.409      0.000      -0.620      -0.438
+x2             0.0010      0.000      6.595      0.000       0.001       0.001
+x3             0.0905      0.019      4.829      0.000       0.054       0.127
+x4             0.0407      0.011      3.679      0.000       0.019       0.062
+x5             0.0778      0.004     21.368      0.000       0.071       0.085
+x6             0.1022      0.024      4.312      0.000       0.056       0.149
+x7             0.0275      0.012      2.308      0.021       0.004       0.051
+x8             0.0273      0.015      1.778      0.076      -0.003       0.057
+==============================================================================
+Omnibus:                       66.731   Durbin-Watson:                   0.181
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               76.821
+Skew:                          -0.610   Prob(JB):                     2.08e-17
+Kurtosis:                       3.292   Cond. No.                     1.28e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.28e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+The chart of variables
+--------------------
+: x1 : shall
+: x2 : incarc_rate
+: x3 : density
+: x4 : avginc
+: x5 : pop
+: x6 : pb1064
+: x7 : pw1064
+: x8 : pm1029
+
+Well DONE!!!
+
+ln(vio + rob + mur)   vs  ['shall']
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.099
+Model:                            OLS   Adj. R-squared:                  0.099
+Method:                 Least Squares   F-statistic:                     129.2
+Date:                Tue, 06 Apr 2021   Prob (F-statistic):           1.77e-28
+Time:                        15:34:23   Log-Likelihood:                -1168.5
+No. Observations:                1173   AIC:                             2341.
+Df Residuals:                    1171   BIC:                             2351.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          6.4112      0.022    291.321      0.000       6.368       6.454
+x1            -0.5075      0.045    -11.368      0.000      -0.595      -0.420
+==============================================================================
+Omnibus:                       15.213   Durbin-Watson:                   0.120
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.386
+Skew:                          -0.188   Prob(JB):                     0.000102
+Kurtosis:                       3.484   Cond. No.                         2.50
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+ln(vio + rob + mur)   vs  ['shall', 'incarc_rate', 'density', 'avginc', 'pop', 'pb1064', 'pw1064', 'pm1029']
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.592
+Model:                            OLS   Adj. R-squared:                  0.589
+Method:                 Least Squares   F-statistic:                     210.9
+Date:                Tue, 06 Apr 2021   Prob (F-statistic):          2.38e-220
+Time:                        15:34:23   Log-Likelihood:                -704.44
+No. Observations:                1173   AIC:                             1427.
+Df Residuals:                    1164   BIC:                             1472.
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          2.9804      0.563      5.297      0.000       1.876       4.084
+x1            -0.3968      0.034    -11.766      0.000      -0.463      -0.331
+x2             0.0015      0.000     13.167      0.000       0.001       0.002
+x3             0.0461      0.014      3.383      0.001       0.019       0.073
+x4             0.0081      0.008      1.003      0.316      -0.008       0.024
+x5             0.0497      0.003     18.763      0.000       0.045       0.055
+x6             0.0891      0.017      5.166      0.000       0.055       0.123
+x7             0.0323      0.009      3.721      0.000       0.015       0.049
+x8             0.0124      0.011      1.111      0.267      -0.009       0.034
+==============================================================================
+Omnibus:                       70.766   Durbin-Watson:                   0.185
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               83.935
+Skew:                          -0.599   Prob(JB):                     5.94e-19
+Kurtosis:                       3.533   Cond. No.                     1.28e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.28e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+The chart of variables
+--------------------
+: x1 : shall
+: x2 : incarc_rate
+: x3 : density
+: x4 : avginc
+: x5 : pop
+: x6 : pb1064
+: x7 : pw1064
+: x8 : pm1029
+
+Well DONE!!!
